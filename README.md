@@ -1,5 +1,7 @@
 # My Way or Milky Way 
- 
+
+ ![Milky Way Preview](./preview.png)
+
 ## 🌌 Features
 - **Milky Way representation**: Creates a beautiful, dynamic milky way/galaxy effect with customizable parameters
 - **Interactive Controls**: Adjust various properties using sliders to see different effects
