@@ -1,0 +1,58 @@
+   body {
+    background-color: black;
+   }
+        .main-cont{
+            max-width: 100%;
+            margin: 0 auto;
+         }
+       
+        canvas {
+            height: 800%;
+            width: 100%;
+
+        }
+        .scene-container {
+            width: 100%;
+            height: 800px;
+            background-color: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .controls {
+            position: absolute;
+            bottom: 1rem;
+            left: 1rem;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 0.5rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            color: #ddd;
+        }
+        
+        .controls-panel {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 1rem;
+            border-radius: 4px;
+            color: #ddd;
+            width: 220px;
+        }
+        
+        .slider-container {
+            margin-bottom: 0.8rem;
+        }
+        
+        .slider-container label {
+            display: block;
+            margin-bottom: 0.3rem;
+            font-size: 0.9rem;
+        }
+        
+        .slider-container input {
+            width: 100%;
+        }
+      

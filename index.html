@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.159.0/three.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+    <div class="main-cont">
+             <div class="scene-container" id="galaxy-scene">
+                <div class="controls">
+                    Mouse: Rotate | Scroll: Zoom
+                </div>
+                <div class="controls-panel">
+                    <div class="slider-container">
+                        <label for="stars-count">Stars Count</label>
+                        <input type="range" id="stars-count" min="1000" max="50000" value="30000">
+                    </div>
+                    <div class="slider-container">
+                        <label for="branches">Branches</label>
+                        <input type="range" id="branches" min="2" max="10" value="5">
+                    </div>
+                    <div class="slider-container">
+                        <label for="spin">Spin</label>
+                        <input type="range" id="spin" min="0" max="5" step="0.1" value="1">
+                    </div>
+                    <div class="slider-container">
+                        <label for="radius">Radius</label>
+                        <input type="range" id="radius" min="2" max="15" step="0.1" value="5">
+                    </div>
+                    <div class="slider-container">
+                        <label for="randomness">Randomness</label>
+                        <input type="range" id="randomness" min="0" max="2" step="0.01" value="0.5">
+                    </div>
+                    <div class="slider-container">
+                        <label for="rotation-speed">Rotation Speed</label>
+                        <input type="range" id="rotation-speed" min="0" max="1" step="0.01" value="0.2">
+                    </div>
+                </div>
+            </div>  
+     </div>  
+    <script src="script.js"> </script>
+</body>
+</html>
